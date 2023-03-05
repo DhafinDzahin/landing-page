@@ -73,6 +73,7 @@
     border: none;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 
 .hero__image {
@@ -145,4 +146,14 @@
 .reserve__title {
     font-weight: bold;
     font-size: larger;
+}
+
+.footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.footer__text {
+    color: #f9faf8;
+    text-align: center;
 }
