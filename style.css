@@ -8,6 +8,7 @@
 .wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .nav {
@@ -62,7 +63,7 @@
     margin: 10px 0;
 }
 
-.hero__button {
+.reserve-button {
     background-color: hsl(30, 80%, 50%);
     color: white;
     font-weight: bold;
@@ -127,5 +128,21 @@
 .testimony__quoter {
     text-align: end;
     font-weight: bolder;
+    font-size: larger;
+}
+
+.reserve {
+    background-color: hsl(231, 81%, 49%);
+    margin: 10%;
+    padding: 50px;
+    color: #f9faf8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reserve__title {
+    font-weight: bold;
     font-size: larger;
 }
