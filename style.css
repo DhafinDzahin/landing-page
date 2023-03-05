@@ -111,3 +111,20 @@
     font-weight: bolder;
     font-size: larger;
 }
+
+.testimony {
+    background-color: hsl(224, 11%, 81%);
+    padding: 100px;
+}
+
+.testimony__quote {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.testimony__quoter {
+    text-align: end;
+    font-weight: bolder;
+    font-size: larger;
+}
